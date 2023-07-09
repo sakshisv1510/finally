@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recruitment Solution - Candidate Search</title>
+  <link rel="stylesheet" type="text/css" href="candidate_search.css">
+</head>
+<body>
+  <header>
+    <h1>Recruitment Solution</h1>
+    <nav>
+      <ul>
+        <li><a href ="homepage.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="candidate_search.html">Search</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="search">
+    <h2>Candidate Search</h2>
+    <form>
+      <div class="form-group">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location">
+      </div>
+      <div class="form-group">
+        <label for="job-role">Job Role:</label>
+        <input type="text" id="job-role" name="job-role">
+      </div>
+      <div class="form-group">
+        <button type="submit">Search</button>
+      </div>
+    </form>
+    <div class="candidate-list">
+      <!-- Candidate list will be dynamically generated here -->
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2023 Recruitment Solution. All rights reserved.</p>
+  </footer>
+</body>
+</html>
